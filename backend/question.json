@@ -1,0 +1,185 @@
+{
+  "survey_id": 1,
+  "sections": [
+    {
+      "section_id": 1,
+      "questions": [
+        {
+          "question_id": 1,
+          "question_text": "Where do you primarily sell your products?",
+          "question_type": "single_choice",
+          "options": ["Own e-commerce store", "Marketplaces", "Social commerce", "Offline stores"]
+        },
+        {
+          "question_id": 2,
+          "question_text": "What percentage of your sales come from your own e-store vs. marketplaces?",
+          "question_type": "single_choice",
+          "options": ["0-20%", "21-50%", "51-80%", "81-100%"]
+        },
+        {
+          "question_id": 3,
+          "question_text": "Do you feel overly dependent on marketplaces for revenue?",
+          "question_type": "single_choice",
+          "options": ["Yes", "No"]
+        },
+        {
+          "question_id": 4,
+          "question_text": "What are the biggest challenges in driving more traffic to your own e-store?",
+          "question_type": "multiple_choice",
+          "options": ["Low brand awareness", "High marketing costs", "Poor customer retention", "Lack of trust", "Technical limitations"]
+        },
+        {
+          "question_id": 5,
+          "question_text": "How long have you been selling online?",
+          "question_type": "single_choice",
+          "options": ["Less than 1 year", "1-3 years", "3-5 years", "More than 5 years"]
+        }
+      ]
+    },
+    {
+      "section_id": 2,
+      "questions": [
+        {
+          "question_id": 6,
+          "question_text": "What drives customers to buy from marketplaces instead of your e-store? (Select all that apply)",
+          "question_type": "multiple_choice",
+          "options": ["Discounts and competitive pricing", "Faster delivery", "Trust in marketplace reviews and ratings", "Hassle-free return & refund policies", "Loyalty programs (Prime membership, etc.)"]
+        },
+        {
+          "question_id": 7,
+          "question_text": "Do you provide customers with pre-purchase decision-making tools (e.g., verified reviews, FAQs, direct brand communication)?",
+          "question_type": "single_choice",
+          "options": ["Yes", "No"]
+        },
+        {
+          "question_id": 8,
+          "question_text": "What factors impact customer trust and confidence when purchasing from your website? (Select all that apply)",
+          "question_type": "multiple_choice",
+          "options": ["Verified product reviews & ratings", "Post-purchase support", "Return & refund policies", "Third-party validation or endorsements"]
+        },
+        {
+          "question_id": 9,
+          "question_text": "Would you be interested in a real-time tool to capture and act on customer expectations and experiences?",
+          "question_type": "single_choice",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "section_id": 3,
+      "questions": [
+        {
+          "question_id": 10,
+          "question_text": "Do you currently collect and analyze post-purchase customer data?",
+          "question_type": "single_choice",
+          "options": ["Yes, extensively", "Yes, but limited", "No, we rely on marketplace data"]
+        },
+        {
+          "question_id": 11,
+          "question_text": "How valuable would direct customer insights (expectations, post-purchase experience) be for your business?",
+          "question_type": "single_choice",
+          "options": ["Extremely valuable", "Somewhat valuable", "Neutral", "Not valuable"]
+        },
+        {
+          "question_id": 12,
+          "question_text": "What are the key challenges in acting on customer feedback? (Select all that apply)",
+          "question_type": "multiple_choice",
+          "options": ["Difficult to track customer sentiment", "No centralized review management", "Not enough data to improve product quality", "Other (Please specify)"]
+        }
+      ]
+    },
+    {
+      "section_id": 4,
+      "questions": [
+        {
+          "question_id": 13,
+          "question_text": "How do you currently resolve disputes or negative feedback from customers? (Select all that apply)",
+          "question_type": "multiple_choice",
+          "options": ["Dedicated customer service team", "Automated chatbot responses", "Direct engagement through calls/emails", "No structured resolution process"]
+        },
+        {
+          "question_id": 14,
+          "question_text": "What post-purchase engagement strategies do you have in place? (Select all that apply)",
+          "question_type": "multiple_choice",
+          "options": ["Follow-up emails/SMS", "Request for reviews & testimonials", "Personalized offers for repeat purchases", "Customer loyalty programs"]
+        },
+        {
+          "question_id": 15,
+          "question_text": "Do you believe direct brand-customer engagement can improve repeat sales and loyalty?",
+          "question_type": "single_choice",
+          "options": ["Yes", "No"]
+        },
+        {
+          "question_id": 16,
+          "question_text": "Have you experienced issues with fake or manipulated reviews on your website?",
+          "question_type": "single_choice",
+          "options": ["Frequently", "Occasionally", "Never"]
+        },
+        {
+          "question_id": 17,
+          "question_text": "Have you lost sales due to customers not trusting your product reviews?",
+          "question_type": "single_choice",
+          "options": ["Yes", "No"]
+        },
+        {
+          "question_id": 18,
+          "question_text": "How do you currently measure customer satisfaction and engagement?",
+          "question_type": "multiple_choice",
+          "options": ["Net Promoter Score (NPS) surveys", "Customer feedback through chat/email", "No structured measurement"]
+        }
+      ]
+    },
+    {
+      "section_id": 5,
+      "questions": [
+        {
+          "question_id": 19,
+          "question_text": "What specific insights would you find most useful from a post-purchase analytics platform? (Select all that apply)",
+          "question_type": "multiple_choice",
+          "options": ["Real-time customer feedback tracking", "Sentiment analysis & brand perception", "Competitor comparison for customer experience", "AI-driven recommendations for product improvement"]
+        },
+        {
+          "question_id": 20,
+          "question_text": "Would you be willing to test a customer experience analytics tool to enhance trust and transparency on your website?",
+          "question_type": "single_choice",
+          "options": ["Yes", "No"]
+        },
+        {
+          "question_id": 21,
+          "question_text": "What additional features would you want from a customer experience analytics tool to improve your e-store performance?",
+          "question_type": "open-ended",
+          "options": []
+        },
+        {
+          "question_id": 22,
+          "question_text": "Do you believe your current e-store setup effectively addresses customer trust, engagement, and retention challenges?",
+          "question_type": "single_choice",
+          "options": ["Yes, we have a strong system in place", "Partially, but improvements are needed", "No, we face significant challenges"]
+        }
+      ]
+    },
+    {
+      "section_id": 6,
+      "questions": [
+        {
+          "question_id": 23,
+          "question_text": "Business Name",
+          "question_type": "open-ended",
+          "options": []
+        },
+        {
+          "question_id": 24,
+          "question_text": "Industry Type",
+          "question_type": "single_choice",
+          "options": ["Consumer Goods", "Fashion & Apparel", "Home & Living", "Electronics", "Beauty & Wellness", "Others (Please specify)"]
+        },
+        {
+          "question_id": 25,
+          "question_text": "Company Size (Number of Employees)",
+          "question_type": "single_choice",
+          "options": ["1-10", "11-50", "51-100", "101-500", "500+"]
+        }
+      ]
+    }
+  ]
+}     
