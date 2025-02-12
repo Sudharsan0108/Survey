@@ -1,0 +1,130 @@
+body {
+    font-family: poppins;
+    background-color: #fef2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .logo img {
+    height: 10vh;
+    width: 80px;
+}
+  .logo {
+    color: #dc2626;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-links a:hover {
+    transition: all 0.3s ease-in-out;
+    font-size: 30px;
+    transform: scale(1.1);
+  }
+  
+  .nav-buttons button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-family: poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .get-started {
+    background-color: #dc2626;
+    color: white;
+    font-family: poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+  }
+  
+  .text-content {
+    max-width: 700px;
+    line-height: 1.5;
+  }
+  
+  .text-content h2 {
+    font-size: 50px;
+    font-family: poppins;
+  }
+  .text-content p {
+    font-size: 20px;
+    font-family: poppins;
+  }
+  .buttons .get-demo {
+    background-color: #dc2626;
+    color: white;
+    font-family: poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .buttons .get-started {
+    background-color: #dc2626;
+    color: white;
+    font-family: poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  .buttons .get-started:hover {
+    background-color: #dc2626;
+    color: white;
+    font-family: Poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transform: scale(1.1);
+}
+
+.buttons .get-demo:hover {
+    background-color: #dc2626;
+    color: white;
+    font-family: poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transform: scale(1.1);
+}

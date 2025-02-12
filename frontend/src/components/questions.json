@@ -1,0 +1,203 @@
+{
+  "survey_id": 1,
+  "questions": {
+    "1": [
+      {
+        "question_id": 1,
+        "question": "Where do you primarily sell your products?",
+        "question_type": "single_choice",
+        "options": ["Own e-commerce store", "Marketplaces", "Social commerce", "Offline stores"]
+      },
+      {
+        "question_id": 2,
+        "question": "What percentage of your sales come from your own e-store vs. marketplaces?",
+        "question_type": "single_choice",
+        "options": ["0-20%", "21-50%", "51-80%", "81-100%"]
+      },
+      {
+        "question_id": 3,
+        "question": "Do you feel overly dependent on marketplaces for revenue?",
+        "question_type": "single_choice",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question_id": 4,
+        "question": "What are the biggest challenges in driving more traffic to your own e-store?",
+        "question_type": "multiple_choice",
+        "options": ["Low brand awareness", "High marketing costs", "Poor customer retention", "Lack of trust", "Technical limitations"]
+      },
+      {
+        "question_id": 5,
+        "question": "How long have you been selling online?",
+        "question_type": "single_choice",
+        "options": ["Less than 1 year", "1-3 years", "3-5 years", "More than 5 years"]
+      }
+    ],
+    "2": [
+      {
+        "question_id": 6,
+        "question": "What drives customers to buy from marketplaces instead of your e-store? (Select all that apply)",
+        "question_type": "multiple_choice",
+        "options": ["Discounts and competitive pricing", "Faster delivery", "Trust in marketplace reviews and ratings", "Hassle-free return & refund policies", "Loyalty programs (Prime membership, etc.)"]
+      },
+      {
+        "question_id": 7,
+        "question": "Do you provide customers with pre-purchase decision-making tools (e.g., verified reviews, FAQs, direct brand communication)?",
+        "question_type": "single_choice",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question_id": 8,
+        "question": "What factors impact customer trust and confidence when purchasing from your website? (Select all that apply)",
+        "question_type": "multiple_choice",
+        "options": ["Verified product reviews & ratings", "Post-purchase support", "Return & refund policies", "Third-party validation or endorsements"]
+      },
+      {
+        "question_id": 9,
+        "question": "Would you be interested in a real-time tool to capture and act on customer expectations and experiences?",
+        "question_type": "single_choice",
+        "options": ["Yes", "No"]
+      }
+    ],
+    "3": [
+      {
+        "question_id": 10,
+        "question": "Do you currently collect and analyze post-purchase customer data?",
+        "question_type": "single_choice",
+        "options": ["Yes, extensively", "Yes, but limited", "No, we rely on marketplace data"]
+      },
+      {
+        "question_id": 11,
+        "question": "How valuable would direct customer insights (expectations, post-purchase experience) be for your business?",
+        "question_type": "single_choice",
+        "options": ["Extremely valuable", "Somewhat valuable", "Neutral", "Not valuable"]
+      },
+      {
+        "question_id": 12,
+        "question": "What are the key challenges in acting on customer feedback? (Select all that apply)",
+        "question_type": "multiple_choice",
+        "options": ["Difficult to track customer sentiment", "No centralized review management", "Not enough data to improve product quality", "Other (Please specify)"]
+      }
+    ],
+    "4": [
+      {
+        "question_id": 13,
+        "question": "How do you currently resolve disputes or negative feedback from customers? (Select all that apply)",
+        "question_type": "multiple_choice",
+        "options": ["Dedicated customer service team", "Automated chatbot responses", "Direct engagement through calls/emails", "No structured resolution process"]
+      },
+      {
+        "question_id": 14,
+        "question": "What post-purchase engagement strategies do you have in place? (Select all that apply)",
+        "question_type": "multiple_choice",
+        "options": ["Follow-up emails/SMS", "Request for reviews & testimonials", "Personalized offers for repeat purchases", "Customer loyalty programs"]
+      },
+      {
+        "question_id": 15,
+        "question": "Do you believe direct brand-customer engagement can improve repeat sales and loyalty?",
+        "question_type": "single_choice",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question_id": 16,
+        "question": "Have you experienced issues with fake or manipulated reviews on your website?",
+        "question_type": "single_choice",
+        "options": ["Frequently", "Occasionally", "Never"]
+      },
+      {
+        "question_id": 17,
+        "question": "Have you lost sales due to customers not trusting your product reviews?",
+        "question_type": "single_choice",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question_id": 18,
+        "question": "How do you currently measure customer satisfaction and engagement? (Select all that apply)",
+        "question_type": "multiple_choice",
+        "options": ["Net Promoter Score (NPS) surveys", "Customer feedback through chat/email", "No structured measurement"]
+      }
+    ],
+    "5": [
+      {
+        "question_id": 19,
+        "question": "What specific insights would you find most useful from a post-purchase analytics platform? (Select all that apply)",
+        "question_type": "multiple_choice",
+        "options": ["Real-time customer feedback tracking", "Sentiment analysis & brand perception", "Competitor comparison for customer experience", "AI-driven recommendations for product improvement"]
+      },
+      {
+        "question_id": 20,
+        "question": "Would you be willing to test a customer experience analytics tool to enhance trust and transparency on your website?",
+        "question_type": "single_choice",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question_id": 21,
+        "question": "What additional features would you want from a customer experience analytics tool to improve your e-store performance?",
+        "question_type": "open_ended",
+        "options": ["Open-ended response"]
+      },
+      {
+        "question_id": 22,
+        "question": "Do you believe your current e-store setup effectively addresses customer trust, engagement, and retention challenges?",
+        "question_type": "single_choice",
+        "options": ["Yes, we have a strong system in place", "Partially, but improvements are needed", "No, we face significant challenges"]
+      }
+    ],
+    "6": [
+      {
+        "question_id": 23,
+        "question": "Business Name",
+        "question_type": "open_ended",
+        "options": ["Open-ended response"]
+      },
+      {
+        "question_id": 24,
+        "question": "Industry Type",
+        "question_type": "single_choice",
+        "options": ["Consumer Goods", "Fashion & Apparel", "Home & Living", "Electronics", "Beauty & Wellness", "Others (Please specify)"]
+      },
+      {
+        "question_id": 25,
+        "question": "Company Size (Number of Employees)",
+        "question_type": "single_choice",
+        "options": ["1-10", "11-50", "51-100", "101-500", "500+"]
+      },
+      {
+        "question_id": 26,
+        "question": "Annual Revenue Range (Optional)",
+        "question_type": "single_choice",
+        "options": ["< ₹10L", "₹10L - ₹50L", "₹50L - ₹1 Cr", "₹1 Cr - ₹5 Cr", "₹5 Cr+"]
+      },
+      {
+        "question_id": 27,
+        "question": "Business Contact Name",
+        "question_type": "open_ended",
+        "options": ["Open-ended response"]
+      },
+      {
+        "question_id": 28,
+        "question": "Email ID",
+        "question_type": "open_ended",
+        "options": ["Open-ended response"]
+      },
+      {
+        "question_id": 29,
+        "question": "Phone Number",
+        "question_type": "open_ended",
+        "options": ["Open-ended response"]
+      },
+      {
+        "question_id": 30,
+        "question": "Preferred Mode of Communication",
+        "question_type": "single_choice",
+        "options": ["Email", "WhatsApp", "Call"]
+      },
+      {
+        "question_id": 31,
+        "question": "Would you like to receive early access or a demo of Capchek?",
+        "question_type": "single_choice",
+        "options": ["Yes", "No"]
+      }
+    ]
+  }
+}

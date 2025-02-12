@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #FFE4E3, #E6DFFF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.logo {
+  display: inline;
+}
+
+img {
+  width: 30%;
+  /* height: 10%; */
+  float: left;
+  /* padding-left: 20px; */
+  /* padding-right: 0px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300vh;
+  max-width: 1000px;
+  min-height: 80vh;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* MOBILE RESPONSIVE STYLES */
+
+
+/* TEXT STYLES */
+.intro-title {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  font-style: normal;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+.intro-description {
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+  font-style: italic;
+  max-width: 700px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.intro-goal {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #000;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+
+.intro-button {
+  background-color: #6c42f5;
+  color: #fff;
+  font-size: 16px;
+  width: 300px;
+  font-weight: bold;
+  padding: 14px 60px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.intro-button:hover {
+  background-color: #5a34d3;
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  .intro-container {
+    width: 100%;
+    min-height: 60vh;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    margin-top: 20px; 
+    box-shadow: none;
+  }
+  .logo img{
+    width: 50%;
+    height: auto;  
+    display: block; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+  }
+  .intro-title {
+    /* font-size: 15px; */
+    max-width: 100%; 
+    background: none;/* Restrict width to force line breaks */
+  }
+
+  .intro-description,
+  .intro-goal {
+    font-size: 14px;
+    max-width: 100%;
+    font-style: italic;
+  }
+
+  .intro-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

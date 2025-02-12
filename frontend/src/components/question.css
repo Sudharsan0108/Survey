@@ -1,0 +1,398 @@
+.content {
+  position: relative;
+  width: 70%;
+  border: 5px solid rgba(255, 255, 255, 0.637);
+  border-radius: 30px;
+  margin-left: 1%;
+  margin-right: 2%;
+  overflow: hidden;
+  background: #ffffff;
+  margin-top: 25px;
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 30%;
+  opacity: 0.1;
+  z-index: -1; 
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #FFE4E3, #E6DFFF);
+}
+
+h1 {
+  font-size: 130%;
+  font-weight: 600;
+  color: #7442C8;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 100%;
+  font-weight: 200;
+  color: #000;
+  text-align: center;
+  margin-top: 3%;
+}
+
+h3 {
+  font-size: 100%;
+  font-weight: 400;
+  color: #000;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 3%;
+}
+
+.option-label {
+  width: 70%;
+  background: rgba(255, 255, 255, 0.637);
+  border-radius: 8px;
+  font-size: 100%;
+  font-weight: 100;
+  color: #4C4C4C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid transparent;
+  box-shadow: 0px 4px 20px 0px #ebebeb;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  padding: 10px 20px;
+}
+
+/* Hide the default radio button */
+.option-label input {
+  display: none;
+}
+
+/* Add checkmark inside the label when checked */
+.option-label::after {
+  content: "✔";
+  font-size: 1.5em;
+  color: transparent;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.option-label:has(input:checked) {
+  background: rgba(77, 58, 131, 0.1);
+  border-color: #6750a4;
+}
+
+.option-label:has(input:checked)::after {
+  color: #6750a4; /* Green checkmark when selected */
+}
+
+.options {
+  color: #4C4C4C;
+  margin-bottom: 15px;
+}
+
+.option-label:hover {
+  background: rgba(77, 58, 131, 0.1);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  margin-top: 5%;
+  padding-left: 10%;
+}
+
+button {
+  padding: 3% 10%;
+  border-radius: 8px;
+  font-size: 100%;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:disabled {
+  background: white;
+  cursor: not-allowed;
+  border: 2px solid #7442C8;
+  color: #7442C8;
+}
+
+.back-btn {
+  background: rgba(255, 255, 255, 0.792);
+  color: #7442C8;
+  border: 2px solid #7442C8;
+}
+
+.next-btn {
+  background: #7442C8;
+  color: white;
+}
+
+.back-btn:hover {
+  background: rgb(255, 255, 255);
+}
+
+.text-box {
+  width: 50%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #000000;
+  background: transparent;
+  color: #000000;
+  font-size: 100%;
+  font-weight: 300;
+  padding: 1%;
+  margin-top: 3%;
+  outline: none;
+}
+
+.text-box:focus {
+  border-bottom: 2px solid #7442C8;  
+}
+
+.text-box::placeholder {
+  text-align: center;
+}
+
+
+.question-text {
+  text-align: center;
+}
+
+.sub-text {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 5px;
+  font-style: italic;
+  color: #4C4C4C;
+}
+
+.inline-other-input {
+  display: block;
+  width: calc(100% - 20px);
+  margin-top: 8px;
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+
+.inline-other-input:focus {
+  border-color: #7a5af5;
+  background: #fff;
+}
+
+
+@media (max-width: 768px) {
+  body {
+      background: none !important;
+      font-family: "Poppins", sans-serif;
+      text-align: left; 
+      margin: 0;
+      padding: 0;
+      
+  }
+
+  .content {
+      position: relative;
+      width: 100%;
+      height: auto;
+      border: 5px solid rgba(255, 255, 255, 0.637);
+      border-radius: 30px;
+      padding: 10px;
+      background: #ffffff;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 10px; 
+  }
+
+  h1, h2, h3 {
+    font-size: 100%;
+    font-weight: 500;
+    color: #000;
+    text-align: left; 
+    white-space: normal; 
+    word-wrap: break-word; 
+    display: block; 
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-left: 10px;
+}
+
+
+  h3 {
+    color: rgb(173, 169, 169);
+  }
+
+  h1 {
+      color: #7442C8;
+      background: linear-gradient(to right, #FFE4E3, #E6DFFF);
+      font-style: italic;
+      padding: 20px;
+      margin-bottom: 30px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .options-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; 
+      gap: 10px;
+      width: 100%;
+      margin-left: 10px; 
+  }
+
+  .option-row {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      margin-left: 10px; 
+  }
+
+  .options {
+      width: 100%;
+      color: #4C4C4C;
+      margin-bottom: 10px;
+      text-align: left; 
+      padding-left: 0;
+      margin-left: 10px; 
+  }
+
+  .option-label {
+      width: 90%;
+      background: rgba(255, 255, 255, 0.637);
+      border-radius: 8px;
+      font-size: 100%;
+      font-weight: 100;
+      color: #4C4C4C;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; 
+      border: 2px solid transparent;
+      box-shadow: 0px 4px 20px 0px #ebebeb;
+      padding: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      margin-left: 10px; 
+  }
+
+  .option-label:hover,
+  .option-label:has(input:checked) {
+      background: rgba(103, 80, 164, 0.1);
+      border-color: #6750a4;
+  }
+
+  .option-label input {
+      display: none;
+  }
+
+  .btn-container {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 5% auto 0;
+      margin-left: 10px; 
+  }
+
+  button {
+      flex: 1;
+      padding: 3% 5%;
+      border-radius: 8px;
+      font-size: 100%;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  button:disabled {
+      background: white;
+      cursor: not-allowed;
+      border: 2px solid #7442C8;
+      color: #7442C8;
+  }
+
+  .back-btn {
+      background: rgba(255, 255, 255, 0.792);
+      color: #7442C8;
+      border: 2px solid #7442C8;
+  }
+
+  .next-btn {
+      background: #7442C8;
+      color: white;
+  }
+
+  .text-box {
+      width: 100%;
+      border: none;
+      border-bottom: 1.5px solid #000000;
+      background: transparent;
+      color: #000;
+      font-size: 100%;
+      font-weight: 600;
+      padding: 1%;
+      margin-top: 3%;
+      outline: none;
+      text-align: left;
+      margin-left: 10px; 
+  }
+
+  .text-box:focus {
+      border-bottom: 1.5px solid #7442C8;
+  }
+
+  .text-box::placeholder {
+      text-align: left;
+      font-weight: 200; 
+  }
+
+  
+  .question-text {
+      text-align: left; 
+      margin-left: 10px; 
+      padding: 0;
+      font-weight: 300;
+  }
+  .centered-text {
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 5px;
+    font-style: italic;
+    color: #4C4C4C;
+  }
+  .section{
+    
+      font-size: 25px;
+      color: #6c47ff;
+      text-align: left;
+      font-weight: 500;
+      margin-left: 20px;
+  }
+}

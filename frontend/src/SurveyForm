@@ -1,0 +1,53 @@
+import React, { useState } from "react";
+import axios from "axios";
+
+const SurveyForm = ({ refreshSurveys }) => {
+    const [title, setTitle] = useState("");
+    const [description, setDescription] = useState("");
+
+    // Handle form submission
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        try {
+            const response = await axios.post("http://localhost:5000/create-survey", {
+                title,
+                description,
+            });
+            console.log("Survey created with ID:", response.data.survey_id);
+            refreshSurveys(); // Refresh the list of surveys
+        } catch (error) {
+            console.error("Error creating survey:", error);
+        }
+    };
+
+    return (
+        <div>
+            <h2>Create a Survey</h2>
+            <form onSubmit={handleSubmit}>
+                <label>
+                    Title:
+                    <input
+                        type="text"
+                        value={title}
+                        onChange={(e) => setTitle(e.target.value)}
+                        required
+                    />
+                </label>
+                <br />
+                <label>
+                    Description:
+                    <textarea
+                        value={description}
+                        onChange={(e) => setDescription(e.target.value)}
+                        required
+                    ></textarea>
+                </label>
+                <br />
+                <button type="submit">Create Survey</button>
+            </form>
+        </div>
+    );
+};
+
+export default SurveyForm;
